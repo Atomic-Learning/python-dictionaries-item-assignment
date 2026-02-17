@@ -1,0 +1,20 @@
+{
+    "title": "Python: Dictionaries - Item Assignment",
+    "slug": "python-dictionaries-item-assignment",
+    "description": "Adding and modifying dictionary key-value pairs using assignment syntax, and deleting key-value pairs with del.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 6,
+    "prerequisites": [
+        "python-dictionaries-introduction",
+        "python-variables"
+    ],
+    "related": [
+        "python-mutable-immutable-types",
+        "python-nested-collections"
+    ]
+}

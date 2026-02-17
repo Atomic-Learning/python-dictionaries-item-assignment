@@ -1,0 +1,37 @@
+
+<p>Dictionaries are mutable, meaning you can add new key-value pairs and modify existing ones after creation.</p>
+
+<h2>Adding New Key-Value Pairs</h2>
+
+<p>Use assignment to add a new key-value pair by writing the new key in square brackets and assigning a value:</p>
+
+<py-cell>atomic_numbers = {"H": 1, "He": 2}
+print(atomic_numbers)
+
+atomic_numbers["Li"] = 3
+print(atomic_numbers)
+
+atomic_numbers["Be"] = 4
+print(atomic_numbers)</py-cell>
+
+<h2>Modifying Existing Values</h2>
+
+<p>Use assignment on an existing key to change its value:</p>
+
+<py-cell>grades = {"Alice": 90, "Bob": 85}
+print(grades)
+
+grades["Alice"] = 95
+print(grades)</py-cell>
+
+<h2>Deleting Key-Value Pairs</h2>
+
+<p>You can remove a key-value pair from a dictionary using the <code>del</code> statement:</p>
+
+<py-cell>person = {"name": "Alice", "age": 30, "city": "NYC"}
+print(person)
+
+del person["age"]
+print(person)</py-cell>
+
+<p>The <code>del</code> statement removes the key and its value from the dictionary.</p>
