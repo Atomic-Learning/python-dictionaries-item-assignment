@@ -1,6 +1,6 @@
 {
-    "title": "Python: Dictionaries - Item Assignment",
-    "slug": "python-dictionaries-item-assignment",
+    "title": "Python: Dictionaries - Adding and Updating Key-Value Pairs",
+    "slug": "python-dictionaries-item-adding-updating-key-value-pairs",
     "description": "Adding and modifying dictionary key-value pairs using assignment syntax, and deleting key-value pairs with del.",
     "authors": [
         "chris-cooling"
