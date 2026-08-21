@@ -1,0 +1,28 @@
+Dictionaries are mutable, meaning you can add new key-value pairs and modify existing ones after creation.
+
+# Adding New Key-Value Pairs
+
+Use assignment to add a new key-value pair by writing the new key in square brackets and assigning a value:
+
+```py-cell
+atomic_numbers = {"H": 1, "He": 2}
+print(atomic_numbers)
+
+atomic_numbers["Li"] = 3
+print(atomic_numbers)
+
+atomic_numbers["Be"] = 4
+print(atomic_numbers)
+```
+
+# Modifying Existing Values
+
+Use assignment on an existing key to change its value:
+
+```py-cell
+grades = {"Alice": 90, "Bob": 85}
+print(grades)
+
+grades["Alice"] = 95
+print(grades)
+```
